@@ -15,6 +15,7 @@ bit build
 ```
 
 **Problem**
+
 All files are output to the root `dist` directory, instead of in their own source code folder.
 
 The compiler has a `FIXED_OUT_DIR` value, what's the reason for this?  Is this causing the problem?
